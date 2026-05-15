@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="j-8UuVfQNezy0ELJn5m2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hphx3V5nFldRvap5gWe9-14" edge="1" parent="1" source="hphx3V5nFldRvap5gWe9-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hphx3V5nFldRvap5gWe9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hphx3V5nFldRvap5gWe9-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TicketController" vertex="1">
+          <mxGeometry height="90" width="160" x="360" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hphx3V5nFldRvap5gWe9-3" parent="hphx3V5nFldRvap5gWe9-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hphx3V5nFldRvap5gWe9-4" parent="hphx3V5nFldRvap5gWe9-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ crearTicket(): void&lt;div&gt;+ actualizarTicket(): void&lt;/div&gt;&lt;div&gt;+ pocesarSolicitud(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="56" width="160" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hphx3V5nFldRvap5gWe9-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TicketModel" vertex="1">
+          <mxGeometry height="140" width="160" x="210" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="hphx3V5nFldRvap5gWe9-6" parent="hphx3V5nFldRvap5gWe9-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- id: int&lt;div&gt;- descripcion: String&lt;/div&gt;&lt;div&gt;- estado: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hphx3V5nFldRvap5gWe9-7" parent="hphx3V5nFldRvap5gWe9-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hphx3V5nFldRvap5gWe9-8" parent="hphx3V5nFldRvap5gWe9-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ guardarTicket(): void&lt;div&gt;+ actualizarEstado(): void&lt;/div&gt;&lt;div&gt;+ obtenerDatos(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="160" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="hphx3V5nFldRvap5gWe9-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TicketView" vertex="1">
+          <mxGeometry height="90" width="160" x="510" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="hphx3V5nFldRvap5gWe9-11" parent="hphx3V5nFldRvap5gWe9-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hphx3V5nFldRvap5gWe9-12" parent="hphx3V5nFldRvap5gWe9-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ mostrarFormulario(): void&lt;div&gt;+ mostrarTicket(): void&lt;/div&gt;&lt;div&gt;+ mostrarMensaje(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="56" width="160" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hphx3V5nFldRvap5gWe9-13" edge="1" parent="1" source="hphx3V5nFldRvap5gWe9-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.59;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" target="hphx3V5nFldRvap5gWe9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hphx3V5nFldRvap5gWe9-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="gestiona datos" vertex="1">
+          <mxGeometry height="30" width="100" x="240" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hphx3V5nFldRvap5gWe9-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="actualiza vista" vertex="1">
+          <mxGeometry height="30" width="100" x="510" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

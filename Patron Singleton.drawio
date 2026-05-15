@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="H8p0_eZPLo8SM1iTXMGn">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BuEmcXTh27IuGtkzV98m-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="GestorTickets" vertex="1">
+          <mxGeometry height="240" width="210" x="360" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BuEmcXTh27IuGtkzV98m-2" parent="BuEmcXTh27IuGtkzV98m-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- instancia: GestorTickets&lt;div&gt;- conexionBD: String&lt;/div&gt;&lt;div&gt;- tickets: List&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BuEmcXTh27IuGtkzV98m-3" parent="BuEmcXTh27IuGtkzV98m-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BuEmcXTh27IuGtkzV98m-4" parent="BuEmcXTh27IuGtkzV98m-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- gestorTickets()&lt;div&gt;+ getInstancia(): GestorTickets&lt;/div&gt;&lt;div&gt;+ conectarBD(): void&lt;/div&gt;&lt;div&gt;+ crearTicket(): void&lt;/div&gt;&lt;div&gt;+ actualizarTicket(): void&lt;/div&gt;&lt;div&gt;+ eliminarTicket(): void&lt;/div&gt;&lt;div&gt;+ mostrarTickets(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="142" width="210" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="BuEmcXTh27IuGtkzV98m-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Ticket" vertex="1">
+          <mxGeometry height="130" width="160" x="80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BuEmcXTh27IuGtkzV98m-6" parent="BuEmcXTh27IuGtkzV98m-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- id: int&lt;div&gt;- descripcion: String&lt;/div&gt;&lt;div&gt;- estado: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BuEmcXTh27IuGtkzV98m-7" parent="BuEmcXTh27IuGtkzV98m-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BuEmcXTh27IuGtkzV98m-8" parent="BuEmcXTh27IuGtkzV98m-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ registrar()&lt;div&gt;+ actualizarEstado()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="160" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="BuEmcXTh27IuGtkzV98m-9" edge="1" parent="1" source="BuEmcXTh27IuGtkzV98m-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="BuEmcXTh27IuGtkzV98m-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BuEmcXTh27IuGtkzV98m-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Administra" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
